@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css" />
+</head>
+
+<body>
+<div>
+  <!-- multiply by 3 ? -->
+  <div class="mul3">
+    <p style="margin-top: 0px">*Multiple of 3 or not</p>
+    <label for="num">Enter no.: </label>
+    <input id="number" type="number" name="num" /><br />
+    <button onclick="getNum()">Answer</button>
+    <h3 id="ans"></h3>
+  </div>
+
+  <!-- Finding Simple Interest -->
+  <h3 id="str"></h3>
+  <div class="SimpleInterest">
+    <p style="margin-top: 0px">*Simple Interest</p>
+    <label for="p">Enter P:</label>
+    <input id="principal" type="number" placeholder="Enter principal" name="p" /><br />
+    <label for="r">Enter R:</label>
+    <input id="rate" type="number" placeholder="Enter rate" name="r" /><br />
+    <label for="t">Enter T:</label>
+    <input id="time" type="number" placeholder="Enter time" name="t" />
+    <button onclick="getNum2()">Answer</button>
+    <h3 id="SI"></h3>
+  </div>
+
+  <!-- Finding leap year -->
+  <div class="container">
+    <p style="margin-top: 0px">*Finding Leap Year</p>
+    <label for="year">Enter Year: </label>
+    <input type="number" id="year" name="year" />
+    <button id="LY_btn" onclick="getYear()">Find LeapYear</button>
+    <h3 id="op-ly"></h3>
+  </div>
+
+  <!-- Finding Day -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find Day</p>
+    <label for="dayname">Enter Value(0-6):</label>
+    <input id="wday" type="number" name="dayname" />
+    <button id="day_btn" onclick="abcDay()">Find Day</button>
+    <h3 id="op-day"></h3>
+  </div>
+
+  <!-- Multiplication of 2 no. -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find Multiplication Table</p>
+    <label for="no1">Enter num:</label>
+    <input id="n" type="number" name="no1" /><br />
+    <button onclick="mul()">Check Answer</button>
+    <h3 id="mul_ans"></h3>
+  </div>
+
+  <!-- Sum of Digit -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find Sum of digit</p>
+    <label for="no2">Enter num:</label>
+    <input id="sum" type="number" name="no2"/><br />
+    <button  onclick="sumDigit()">Find Answer</button>
+    <h3 id="sum_ans"></h3>
+  </div>
+  <!-- Palindrome number -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find Palindrome number</p>
+    <label for="no3">Enter num:</label>
+    <input id="pno" type="number" name="no3"/><br />
+    <button  onclick="palindromNo()">Find Answer</button>
+    <h3 id="pno_ans"></h3>
+  </div>
+
+  <!-- Even number -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find Even number</p>
+    <label for="no4">Enter num:</label>
+    <input id="e-no" type="number" name="no4"/><br />
+    <button onclick="evenNo()">Find Answer</button>
+    <h3 id="e_ans"></h3>
+  </div>
+
+  <!-- Vowel or consonant -->
+  <div class="container">
+    <p style="margin-top: 0px">*Find character is Vowel or not</p>
+    <label for="character">Enter character:</label>
+    <input id="char" type="text" name="character"/><br />
+    <button onclick="charCheck()">Find Answer</button>
+    <h3 id="c_ans"></h3>
+  </div>
+
+   <!-- Even and Odd numbers -->
+   <div class="container">
+    <p style="margin-top: 0px">*Find no. of even and odd (1-999)</p>
+    <button onclick="evenOddNo()">Find Answer</button>
+    <h3 id="even_ans"></h3>
+    <h3 id="odd_ans"></h3>
+  </div>
+
+  <!-- occurrence of a particular character -->
+  <div class="container" style="height: 300px;">
+    <p style="margin-top: 0px">*Count occurrence of a particular character</p>
+    <label for="str">Enter String:</label>
+    <input id="str_count" type="text" name="str"/><br /><br>
+    <label for="character">Enter character:</label>
+    <input id="char_count" type="text" name="character"/><br />
+    <button onclick="charCount()">Count</button>
+    <h3 id="c_count"></h3>
+  </div>
+
+  <!-- Sum and average of Array element -->
+  <div class="container" style="height: 250px;">
+    <p style="margin-top: 0px">*Find sum and average of array element</p>
+    <b style="margin-left: 50px;">a = [1, 9, 8]</b><br>
+    <button onclick="arrayElement()">Find Answer</button>
+    <h3 id="s_ans"></h3>
+    <h3 id="avr_ans"></h3>
+  </div>
+
+   <!-- Find largest and smallest no. in array -->
+   <div class="container" style="height: 300px;">
+    <p style="margin-top: 0px">*Find largest and smallest no. in array</p>
+    <label for="no">Enter No.:</label>
+    <input id="num" type="number" name="no"/><br /><br>
+    <h4 id="array" style="margin-left:50px;"></h4>
+    <button onclick="findNo()" style="margin-top: 0px;">Find Answer</button>
+    <h3 id="l_no"></h3>
+    <h3 id="s_no"></h3>
+  </div>
+</div>
+
+  <script src="./Js/script.js"></script>
+</body>
+
+</html>

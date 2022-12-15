@@ -1,0 +1,54 @@
+
+.mul3{
+    padding: 10px;
+    height: 180px;
+    width: 250px;
+    border: 1px solid black;
+}
+button{
+    margin: 30px;
+    margin-left: 70px;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+#ans{
+    text-align: center;
+    margin-top: 0px;
+}
+.SimpleInterest{
+    height: 300px;
+    width: 260px;
+    border: 1px solid black;
+    padding: 10px;
+}
+#principal,#rate,#time{
+    margin: 10px;
+}
+#SI{
+    margin-top: 0px;
+    text-align: center;
+}
+.LeapYear{
+    height: 200px;
+    width: 270px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#LY_btn{
+    width: auto;
+}
+
+h3{
+    margin-left: 45px;
+    margin-top: 0px;
+}
+.container{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+}
